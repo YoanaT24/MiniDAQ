@@ -11,17 +11,17 @@ The objective is to design a professional embedded system capable of:
 - Visualizing data
 - Providing a modular firmware architecture
 
-  ##Current Hardware
-  - ESP32
-  - MPU6050
-  - microSD module (planned)
+##Current Hardware
+- ESP32
+- MPU6050
+- microSD module (planned)
  
-  ##Project Status
-  under development
+##Project Status
+under development
 
-  Version 0.1:
-  - ESP32 setup
-  - serial communication
-  - MPU6050 integration
-  - SD logging
-  - Python dashboard
+Version 0.1:
+- ESP32 setup
+- serial communication
+- MPU6050 integration
+- SD logging
+- Python dashboard
