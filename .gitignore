@@ -1,0 +1,18 @@
+# PlatformIO
+.pio/
+.vscode/
+firmware/.pio/
+firmware/.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Data generated during testing
+data/*.csv
+
+# Operating system files
+.DS_Store
+Thumbs.db
