@@ -1,9 +1,13 @@
+#pragma once
+
+#include "SensorData.h"
+
 class SensorManager
 {
 private:
-    // SensorData latestData;
+    SensorData latestData;
 public:
     void begin(); // Initialize the sensor manager and any necessary hardware
     void update(); // Update the sensor data by reading from the sensors
-   //  SensorData getLatestData(); 
+    SensorData getLatestData() const; 
 };
